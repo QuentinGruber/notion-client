@@ -24,18 +24,6 @@
       },
       "makers": [
         {
-          "name": "@electron-forge/maker-squirrel",
-          "config": {
-            "name": "notion_client"
-          }
-        },
-        {
-          "name": "@electron-forge/maker-zip",
-          "platforms": [
-            "darwin"
-          ]
-        },
-        {
           "name": "@electron-forge/maker-deb",
           "config": {}
         },
@@ -46,15 +34,11 @@
       ]
     }
   },
-  "dependencies": {
-    "electron-squirrel-startup": "^1.0.0"
-  },
   "devDependencies": {
     "@electron-forge/cli": "^6.0.0-beta.54",
     "@electron-forge/maker-deb": "^6.0.0-beta.54",
     "@electron-forge/maker-rpm": "^6.0.0-beta.54",
-    "@electron-forge/maker-squirrel": "^6.0.0-beta.54",
-    "@electron-forge/maker-zip": "^6.0.0-beta.54",
-    "electron": "11.2.1"
-  }
+    "electron": "^15.3.0"
+  },
+  "dependencies": {}
 }
