@@ -11,7 +11,6 @@ const createWindow = () => {
     height: 720
     });
   mainWindow.removeMenu()
-  mainWindow.setIcon(__dirname+'/../assets/Notion_app_logo.png');
   // and load the index.html of the app.
   mainWindow.loadURL("https://www.notion.so/")
 };
